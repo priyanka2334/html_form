@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h6 {
+            border-style: solid dashed dotted double;
+            border-color: blue blueviolet brown black;
+            border-width: 5px;
+        }
+        .p{
+            border-style: solid;
+            border-color: blue ;
+        }
+        #t{
+            border-style: double;
+            border-color: green;
+            border-width: 5px;
+        }
+        *{
+            background-color:pink;
+        }
+        fieldset.t{
+            color:blueviolet;
+            border-style: dashed;
+            border-color: rgb(64, 0, 124);
+        }
+        h4{
+            border-style: dashed;
+            border-color: green;
+            border-radius: 10px;
+        }
+        body {
+               background-image: url("./image/pro.jpeg");
+               background-repeat: no-repeat;
+               background-position: right top;
+               background-attachment: scroll;
+        }
+
+        
+        /* This is sedudo selector */
+        input[list="frutes"]{
+            background-color: aquamarine;
+            color:brown;
+        }
+        a:link{
+            color:blueviolet;
+            font-size: 50px;
+            font-family: cursive;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:blue;
+        }
+        a:active{
+            color:rgb(10, 126, 126);
+        }
+        h1:nth-child(even){
+            color: green;
+            font-style: italic;
+            font-weight: 200px;
+        }
+        h1:nth-child(odd){
+            color:red;
+        }
+        input[type='text']{
+            color:red;
+            background-color: yellow;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/1ce671e465.js" crossorigin="anonymous"></script>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black Coffee</dd>
+        <dt>Milk</dt>
+        <dd>white cold drink</dd>
+    </dl>
+    <form>
+        <input list="frutes">
+        <datalist id="frutes">
+            <option value="banana"></option>
+            <option value="orange"></option>
+            <option value="grapes"></option>
+            <option value="apple"></option>
+        </datalist>
+            <fieldset class="t">
+            <legend><i class="fa-solid fa-house"></i>priyanka</legend>
+            <label>Name</label>
+            <input type="text">
+        </fieldset>
+    </form>
+    <p class="p">Lorem ipsum dolor sit amet.</p>
+    <p id="t">Lorem ipsum dolor sit amet consectetur.</p>
+    <h4>Lorem ipsum, dolor sit amet cre iure</h4>
+    <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+    <img src="./image/wall.jpeg"><br>
+    <a href="https://www.youtube.com/" target="_blank">Youtub</a><br>
+    <input type="submit"><br>
+    <a href="https://www.google.com/">Go to google</a>
+    <fieldset>
+        <legend>priyanka</legend>
+    </fieldset>
+    <form>
+        <input 
+        <input list="city">
+        <datalist id="city">
+            <option>Kanpur</option>
+        <option>nankari</option>
+        <option>ashok nagar</option>
+        <option>arya nagar</option>
+        </datalist>
+    </form>
+    <select>
+    <optgroup label="select">
+        <option>priyanka</option>
+        <option>preeti</option>
+        <option>paras</option>
+        <option>Amit</option>
+    </optgroup>
+    </select>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <h1>this is heading</h1>
+    <picture>
+        <source srcset="./image/wall.jpeg" type="image/jpeg" media="(min-width:1024px)">
+        <source srcset="./image/book1.jpeg" type="image/jpeg" media="(min-width:512px)">
+        <img src="./image/Rose1.jpeg" alt="rose">
+    </picture><br>
+    <picture>
+        <source srcset="./image/Rose1.jpeg" type="image/jpeg" media="(min-width:1024px)">
+        <source srcset="./image/pro.jpeg" type="image/jpeg" media="(min-width:512px)">
+        <img src="./image/book1.jpeg" alt="book">
+    </picture>
+    <textarea></textarea><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vK4Mno4QYqk?si=OtGnLGqO_TIz3Jei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <button><i class="fa-solid fa-trash"></i>submit</button>
+    <picture>
+       <source srcset="./image/pre.jpeg" type="image/jpeg" media="(min-width:1024)">
+       <source srcset="./image/p1.jpeg" type="image/jpeg" media="(min-width:512)">
+       <img src="berger.jpeg">
+    </picture>
+
+    </body>
+</html>
